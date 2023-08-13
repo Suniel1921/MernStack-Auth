@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 1234px;
+    padding: 20px;
+    margin-inline: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 34px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+.navlinks li,a{
+    list-style: none;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 344px;
+}
+.form input{
+    padding: 14px;
+    outline:none;
+}
+
+.btn{
+    padding: 14px;
+    outline:none;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.showHideBtn {
+    position: relative;
+    top: -82px;
+    left: 285px;
+    cursor: pointer;
+}
